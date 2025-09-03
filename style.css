@@ -1,0 +1,79 @@
+* { 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f5f6fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+}
+header h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  color: #444;
+  border-left: 5px solid #667eea;
+  padding-left: 0.6rem;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.job {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 1.2rem;
+  background: #fafafa;
+}
+.job h3 {
+  color: #667eea;
+  margin-bottom: 0.3rem;
+}
+.job p {
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+}
+.job .time {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #222;
+  color: white;
+  margin-top: 2rem;
+}
+@media (max-width: 600px) {
+  header h1 { font-size: 1.8rem; }
+  header p { font-size: 1rem; }
+  section { margin: 1rem; padding: 1rem; }
+}
